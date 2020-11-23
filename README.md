@@ -6,20 +6,22 @@
 
 ### Сервер
 
-Из корня проекта: 
+- Добавить env файл. Пример заполнения см. в .env.example. 
+- В терминале выполнить:
+
 ```bash
-cd /server
 npm i 
 npm run serve
 ```
 
 ### Клиент
 
-Из корня проекта: 
+- Добавить env файл. Пример заполнения см. в .env.example
+- В терминале выполнить:
+
 ```bash
-cd /client
 npm i
 npm run build
 ```
 
-Открыть index.html из папки /public
+- Открыть index.html из папки /public
